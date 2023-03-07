@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./lib/types",
+    "noResolve": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "emitDeclarationOnly": false,
+    "inlineSources": true
+  }
+}
